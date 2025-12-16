@@ -1,0 +1,27 @@
+{
+  "name": "multi-platform-downloader",
+  "version": "1.0.0",
+  "description": "Multi-platform media downloader supporting YouTube, TikTok, Instagram, and more with MP4/MP3 export",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "bun run server.js",
+    "start": "bun run server.js"
+  },
+  "keywords": [
+    "downloader",
+    "youtube",
+    "tiktok",
+    "instagram",
+    "video",
+    "audio",
+    "mp4",
+    "mp3"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
